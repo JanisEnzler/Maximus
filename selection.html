@@ -6,14 +6,11 @@
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="main.css" type="text/css">
         <link rel="icon" href="img/icon.png" type="image/x-icon">
+        <script src="os_adaptor.js"></script>
     </head>
     <body>
-        <h1>Selection</h1>
-        <p>View your 3D Object</p>
-        <section class="center">
-            <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/JanisEnzler/Maximus/main/gltf/thinker/thinker.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;end;"><img src="img/thinker_thumbnail.jpg" alt="Lego Head" width="200" height="200"></a>
-            <br>
-            <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/JanisEnzler/Maximus/main/gltf/legohead/legohead.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;end;"><img src="img/legohead_thumbnail.jpg" alt="Lego Head" width="200" height="200"></a>
-        </section>
+        <h1 id="heading">Selection</h1>
+        <br>
+        <div class="center" id="models"></div>
     </body>
 </html>
