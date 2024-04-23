@@ -1,5 +1,5 @@
 html{
-    font-size: 22;
+    font-size: 50px;
 }
 
 body{
@@ -31,4 +31,30 @@ h1, p{
     margin-right: auto;
     width: 50%;
     text-align: center;
-  }
+}
+
+.button {
+    background-color: #1C294A; /* Green */
+    border: none;
+    color: #C0BADC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    display: block;
+    width: fit-content;
+    border-radius: 10px;
+}
+  
+.logo{
+    font-size: 250px;
+}
+
+.button-icon{
+    font-size: 60px;
+}
+
+a{
+    color: rgba(0, 0, 0, 0);
+}
