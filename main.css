@@ -6,3 +6,21 @@ body{
     background: #C0BADC;
     color: #1C294A;
 }
+
+* {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+.light { 
+    font-weight: 300;
+}
+.regular { 
+    font-weight: 400;
+}
+.semibold { 
+    font-weight: 600;
+}
+
+h1, p{
+    text-align: center;
+}
