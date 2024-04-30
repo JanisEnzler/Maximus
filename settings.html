@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="icon" href="img/icon.png" type="image/x-icon">
+        <script src="colors.js"></script>
+        <script src="settings.js"></script>
+        <title>Settings</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Settings</h1>
+            <a href="index.html"><i class="material-icons">home</i></a>
+        </header>
+        <section class="center">
+            <form id="colorForm">
+                <br><br>
+                <label for="darkColor">Dark Color</label>
+                <input type="color" id="darkColor" name="darkColor" value="#1C294A" class="color-picker">
+                <br><br>
+                <label for="lightColor">Light Color</label>
+                <input type="color" id="lightColor" name="lightColor" value="#C0BADC" class="color-picker">
+                <br><br>
+                <button type="submit" class="small-button">Save Colors</button>
+                <br>
+                <button type="button" id="resetColors" class="small-button">Reset Colors</button>
+            </form>
+        </section>
+    </body>
+</html>

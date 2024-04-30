@@ -31,7 +31,7 @@ function adaptHTML() {
     
     // Tells the User to switch to a phone
     } else {
-        models.innerHTML = '<p>Switch to an Android device or an IPhone to use the AR feature</p>';
+        htmlFilePath = "desktop.html";
     }
 
     // Load HTML content dynamically based on the detected OS
