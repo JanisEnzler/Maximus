@@ -21,7 +21,7 @@ window.onload = async function() {
           const parentFolderName = gltfFile.path.split('/')[1];
   
           // Construct the URL for the thumbnail using the parent folder name
-          const thumbnailSrc = `/img/${parentFolderName}_thumbnail.jpg`;
+          const thumbnailSrc = `/img/${parentFolderName}_thumbnail.png`;
   
           // Construct the URL for the model
           const modelLink = `intent://arvr.google.com/scene-viewer/1.0?file=${gltfFile.download_url}#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;end;`;
